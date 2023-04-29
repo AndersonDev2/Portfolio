@@ -33,7 +33,7 @@ class NavbarClass extends Component {
     return (
       <Navbar id="NavbarID" expand="lg">
         <Container>
-          <Navbar.Brand id="logo" href="/">
+          <Navbar.Brand as={Link} id="logo" to="/">
             <img src={LogoIMG} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
