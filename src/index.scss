@@ -1,0 +1,12 @@
+@import "./colors.scss";
+body {
+  background-color: $--BackgroundColor;
+}
+h2 {
+  font-size: 50px;
+  color: $--TextoColor;
+}
+h3 {
+  font-size: 40px;
+  color: $--TextoColor;
+}

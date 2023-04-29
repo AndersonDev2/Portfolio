@@ -1,0 +1,13 @@
+#RedesSociaisDiv {
+  display: flex;
+  .aRedeSocial {
+    transition: 0.2s;
+    svg {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .aRedeSocial:hover {
+    scale: 1.05;
+  }
+}

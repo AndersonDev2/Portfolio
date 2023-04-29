@@ -1,0 +1,36 @@
+@import "../../colors.scss";
+
+#Habilidades {
+  #habilidade {
+    margin-top: 40px;
+    padding-top: 30px;
+    border: 12px solid $--BlueColor;
+    border-radius: 20px;
+    background-color: $--BackgroundColor2;
+    h3 {
+      font-size: 40px;
+      color: $--TextoColor;
+    }
+    ul li {
+      padding-top: 20px;
+      font-size: 25px;
+      color: $--TextoColor;
+    }
+    svg {
+      position: relative;
+      left: 30%;
+      width: 40%;
+      color: $--TextoColor;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #Habilidades {
+    #habilidade {
+      svg {
+        display: none;
+      }
+    }
+  }
+}

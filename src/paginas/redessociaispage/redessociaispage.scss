@@ -1,0 +1,38 @@
+@import "../../colors.scss";
+#RedesSociaisPage {
+  h2 {
+    color: $--TextoColor;
+  }
+  #RedeSocialRow {
+    padding-bottom: 40px;
+    border: 10px solid $--BlueColor;
+    border-radius: 20px;
+    background-color: $--BackgroundColor2;
+    .RedeSocial {
+      position: relative;
+      display: flex;
+      text-decoration: none;
+      border: 5px solid $--BlueColor;
+      border-radius: 20px;
+      margin-top: 30px;
+      margin-left: 30px;
+      padding-left: 18px;
+      padding-right: 25px;
+      width: fit-content;
+      transition: 0.2s;
+      svg {
+        width: 40px;
+      }
+      p {
+        position: relative;
+        top: 6px;
+        left: 10px;
+        font-size: 22px;
+        color: $--TextoColor;
+      }
+    }
+    .RedeSocial:hover {
+      background-color: $--BackgroundColor;
+    }
+  }
+}
